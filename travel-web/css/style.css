@@ -1,0 +1,27 @@
+.banner-search-bg{
+    background-image: url(../images/paris-france.jpg);
+}
+.navbar-bg{
+    background-color: #9f1c2c;
+}
+
+.has-search{
+    width: 50%;
+    margin:0 auto;
+    position: relative;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.has-search input{
+    padding-left: 30px;
+}
