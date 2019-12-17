@@ -21,7 +21,26 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
+    right: 0;
 }
-.has-search input{
-    padding-left: 30px;
+.nav-tabs .nav-item{
+    margin-right: 5px;
+}
+.nav-tabs .nav-item a{
+    color: #000;
+    background-color: #fff;
+    border: 0;
+}
+.nav-tabs .nav-item a.active{
+    color: #000;
+    background-color: #f7d708;
+    border: 0;
+}
+
+
+
+@media (max-width: 767px) {
+	.nav-tabs>li {
+		width: 100%;
+	}
 }
