@@ -1,0 +1,10 @@
+nav{
+    border-bottom: 1px solid #dfe1e5;
+}
+nav div ul li a.text-primary{
+    color: #5f6368 !important;
+}
+nav div ul li a:hove.text-primary{
+    color: #007bff !important;
+    text-decoration: none;
+}
